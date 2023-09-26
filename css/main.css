@@ -130,6 +130,14 @@ p {
   line-height: 1.285;
 }
 
+img { 
+	width: 100%;
+}
+ 
+figure {
+    margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -154,6 +162,9 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -225,6 +236,7 @@ footer .copyright {
   justify-content: center;
   background:url('../img/hero-image.jpg');
   background-size: cover;
+  min-height: 500px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -273,6 +285,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/main.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
